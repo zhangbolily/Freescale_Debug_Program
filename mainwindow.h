@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "console.h"
+#include "settingdialog.h"
 
 class MainWindow : public QMainWindow
 {

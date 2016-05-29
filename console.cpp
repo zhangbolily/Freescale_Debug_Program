@@ -13,7 +13,7 @@ Console::Console(QWidget *parent)
     p.setColor(QPalette::Base, Qt::black);
     p.setColor(QPalette::Text, Qt::green);
     setPalette(p);
-    connect(this, SIGNAL(sendData(QByteArray)),
+    connect(this, SIGNAL(sendData(QByteArray)),                 //这里暂时把发送数据和显示文字的信号-槽连接起来，稍后我们会解除这个连接。
             this, SLOT(putData(const QByteArray)));
 
 }
