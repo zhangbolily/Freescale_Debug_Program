@@ -54,6 +54,7 @@ void SettingDialog::uiIniate()
 
     //CheckBox
     localEchoCheckBox = new QCheckBox(tr("本地回显"));
+    localEchoCheckBox->setChecked(true);
 
     //ComboBox
     baudRateBox = new QComboBox();

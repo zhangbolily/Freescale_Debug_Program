@@ -46,9 +46,8 @@ void Console::keyPressEvent(QKeyEvent *e)
 
         line = this->blockCount() - 2;
         line = this->document()->lineCount() - 2;
-        qDebug()<<line;
         str = this->document()->findBlockByLineNumber(line).text();        //找到了新的方法来获取这一行的内容。
-        str.append('\n');
+        str.append('\n');               //在末尾追加了一个换行符
         str_byte = str.toLocal8Bit();
 
         emit sendData(str_byte);

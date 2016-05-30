@@ -16,8 +16,11 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     console.cpp \
-    settingdialog.cpp
+    settingdialog.cpp \
 
 HEADERS  += mainwindow.h \
     console.h \
     settingdialog.h
+
+RESOURCES += \
+    resource.qrc
