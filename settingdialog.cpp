@@ -53,7 +53,7 @@ void SettingDialog::uiIniate()
     selectBox = new QGroupBox(tr("选择串口"));
 
     //CheckBox
-    localEchoCheckBox = new QCheckBox();
+    localEchoCheckBox = new QCheckBox(tr("本地回显"));
 
     //ComboBox
     baudRateBox = new QComboBox();
@@ -64,16 +64,16 @@ void SettingDialog::uiIniate()
     serialPortInfoListBox = new QComboBox();
 
     //Labels
-    baudRateLabel = new QLabel();
-    dataBitsLabel = new QLabel();
-    flowControlLabel = new QLabel();
-    parityLabel = new QLabel();
-    stopBitsLabel = new QLabel();
+    baudRateLabel = new QLabel(tr("波特率:"));
+    dataBitsLabel = new QLabel(tr("数据位:"));
+    flowControlLabel = new QLabel(tr("流控制:"));
+    parityLabel = new QLabel(tr("校验位:"));
+    stopBitsLabel = new QLabel(tr("停止位:"));
     descriptionLabel = new QLabel();
     locationLabel = new QLabel();
     manufacturerLabel = new QLabel();
     pidLabel = new QLabel();
-    serialNumberLabel = new QLabel();
+    serialNumberLabel = new QLabel(tr("串口:"));
     vidLabel = new QLabel();
 
     //Layout all of the items.
@@ -108,8 +108,8 @@ void SettingDialog::uiIniate()
 
     mainLayout->addWidget(selectBox, 0, 0);
     mainLayout->addWidget(parametersBox, 0, 1);
-    mainLayout->addWidget(additionalOptionsGroupBox, 1, 0);
-    mainLayout->addLayout(horizontalLayout, 2, 0);
+    mainLayout->addWidget(additionalOptionsGroupBox, 1, 0, 1, 2);
+    mainLayout->addLayout(horizontalLayout, 2, 0, 1, 2);
 
     this->setLayout(mainLayout);
 }
@@ -125,12 +125,12 @@ void SettingDialog::showPortInfo(int idx)
         return;
 
     QStringList list = serialPortInfoListBox->itemData(idx).toStringList();
-    descriptionLabel->setText(tr("Description: %1").arg(list.count() > 1 ? list.at(1) : tr(blankString)));
-    manufacturerLabel->setText(tr("Manufacturer: %1").arg(list.count() > 2 ? list.at(2) : tr(blankString)));
-    serialNumberLabel->setText(tr("Serial number: %1").arg(list.count() > 3 ? list.at(3) : tr(blankString)));
-    locationLabel->setText(tr("Location: %1").arg(list.count() > 4 ? list.at(4) : tr(blankString)));
-    vidLabel->setText(tr("Vendor Identifier: %1").arg(list.count() > 5 ? list.at(5) : tr(blankString)));
-    pidLabel->setText(tr("Product Identifier: %1").arg(list.count() > 6 ? list.at(6) : tr(blankString)));
+    descriptionLabel->setText(tr("描述: %1").arg(list.count() > 1 ? list.at(1) : tr(blankString)));
+    manufacturerLabel->setText(tr("制造商: %1").arg(list.count() > 2 ? list.at(2) : tr(blankString)));
+    serialNumberLabel->setText(tr("串口号: %1").arg(list.count() > 3 ? list.at(3) : tr(blankString)));
+    locationLabel->setText(tr("位置: %1").arg(list.count() > 4 ? list.at(4) : tr(blankString)));
+    vidLabel->setText(tr("供应商识别号: %1").arg(list.count() > 5 ? list.at(5) : tr(blankString)));
+    pidLabel->setText(tr("制造商识别号: %1").arg(list.count() > 6 ? list.at(6) : tr(blankString)));
 }
 
 void SettingDialog::apply()

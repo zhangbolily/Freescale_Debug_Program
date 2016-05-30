@@ -1,0 +1,5 @@
+*.o
+*.exe
+release/moc_console.cpp
+release/moc_mainwindow.cpp
+release/moc_settingdialog.cpp
