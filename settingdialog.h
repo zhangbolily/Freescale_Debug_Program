@@ -45,11 +45,11 @@ private slots:
     void apply();
     void checkCustomBaudRatePolicy(int idx);
     void checkCustomDevicePathPolicy(int idx);
+    void fillPortsInfo();
 
 private:
     void uiIniate();
     void fillPortsParameters();
-    void fillPortsInfo();
     void updateSettings();
 
 private:

@@ -8,5 +8,6 @@
         <file>image/power.png</file>
         <file>image/qt.png</file>
         <file>image/icon.png</file>
+        <file>stylesheet.qss</file>
     </qresource>
 </RCC>

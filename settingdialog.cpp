@@ -13,6 +13,9 @@ SettingDialog::SettingDialog(QWidget *parent) :
 
     intValidator = new QIntValidator(0, 4000000, this);
 
+    this->setWindowTitle(tr("设置参数"));
+    this->setWindowIcon(QIcon(":/image/icon.png"));
+
     baudRateBox->setInsertPolicy(QComboBox::NoInsert);
 
     connect(applyButton, &QPushButton::clicked,
@@ -213,6 +216,8 @@ void SettingDialog::fillPortsInfo()
     }
 
     serialPortInfoListBox->addItem(tr("Custom"));
+
+    serialPortInfoListBox->setCurrentText(currentSettings.name);
 }
 
 void SettingDialog::updateSettings()
