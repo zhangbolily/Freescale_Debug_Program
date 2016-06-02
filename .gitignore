@@ -5,3 +5,5 @@ release/moc_mainwindow.cpp
 release/moc_settingdialog.cpp
 release/qrc_resource.cpp
 release/qrc_resource.cpp
+release/qrc_resource.cpp
+release/qrc_resource.cpp

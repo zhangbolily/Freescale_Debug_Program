@@ -240,15 +240,25 @@ release/moc_mainwindow.cpp: ../../5.6/mingw49_32/include/QtWidgets/QMainWindow \
 		../../5.6/mingw49_32/include/QtGui/QIcon \
 		../../5.6/mingw49_32/include/QtWidgets/QMenu \
 		../../5.6/mingw49_32/include/QtWidgets/qmenu.h \
+		../../5.6/mingw49_32/include/QtWidgets/QLabel \
+		../../5.6/mingw49_32/include/QtWidgets/qlabel.h \
+		../../5.6/mingw49_32/include/QtWidgets/qframe.h \
 		../../5.6/mingw49_32/include/QtWidgets/QMenuBar \
 		../../5.6/mingw49_32/include/QtWidgets/qmenubar.h \
+		../../5.6/mingw49_32/include/QtWidgets/QStatusBar \
+		../../5.6/mingw49_32/include/QtWidgets/qstatusbar.h \
 		../../5.6/mingw49_32/include/QtWidgets/QAction \
+		../../5.6/mingw49_32/include/QtSerialPort/QSerialPort \
+		../../5.6/mingw49_32/include/QtSerialPort/qserialport.h \
+		../../5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
+		../../5.6/mingw49_32/include/QtWidgets/QMessageBox \
+		../../5.6/mingw49_32/include/QtWidgets/qmessagebox.h \
+		../../5.6/mingw49_32/include/QtWidgets/qdialog.h \
 		console.h \
 		../../5.6/mingw49_32/include/QtWidgets/QPlainTextEdit \
 		../../5.6/mingw49_32/include/QtWidgets/qplaintextedit.h \
 		../../5.6/mingw49_32/include/QtWidgets/qtextedit.h \
 		../../5.6/mingw49_32/include/QtWidgets/qabstractscrollarea.h \
-		../../5.6/mingw49_32/include/QtWidgets/qframe.h \
 		../../5.6/mingw49_32/include/QtGui/qtextdocument.h \
 		../../5.6/mingw49_32/include/QtGui/qtextoption.h \
 		../../5.6/mingw49_32/include/QtGui/qtextcursor.h \
@@ -261,18 +271,12 @@ release/moc_mainwindow.cpp: ../../5.6/mingw49_32/include/QtWidgets/QMainWindow \
 		../../5.6/mingw49_32/include/QtGui/qfontdatabase.h \
 		settingdialog.h \
 		../../5.6/mingw49_32/include/QtWidgets/QDialog \
-		../../5.6/mingw49_32/include/QtWidgets/qdialog.h \
-		../../5.6/mingw49_32/include/QtSerialPort/QSerialPort \
-		../../5.6/mingw49_32/include/QtSerialPort/qserialport.h \
-		../../5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
 		../../5.6/mingw49_32/include/QtWidgets/QHBoxLayout \
 		../../5.6/mingw49_32/include/QtWidgets/qboxlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/qlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/qlayoutitem.h \
 		../../5.6/mingw49_32/include/QtWidgets/qgridlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/QVBoxLayout \
-		../../5.6/mingw49_32/include/QtWidgets/QLabel \
-		../../5.6/mingw49_32/include/QtWidgets/qlabel.h \
 		../../5.6/mingw49_32/include/QtWidgets/QGroupBox \
 		../../5.6/mingw49_32/include/QtWidgets/qgroupbox.h \
 		../../5.6/mingw49_32/include/QtWidgets/QCheckBox \
@@ -701,15 +705,25 @@ release/main.o: main.cpp mainwindow.h \
 		../../5.6/mingw49_32/include/QtGui/QIcon \
 		../../5.6/mingw49_32/include/QtWidgets/QMenu \
 		../../5.6/mingw49_32/include/QtWidgets/qmenu.h \
+		../../5.6/mingw49_32/include/QtWidgets/QLabel \
+		../../5.6/mingw49_32/include/QtWidgets/qlabel.h \
+		../../5.6/mingw49_32/include/QtWidgets/qframe.h \
 		../../5.6/mingw49_32/include/QtWidgets/QMenuBar \
 		../../5.6/mingw49_32/include/QtWidgets/qmenubar.h \
+		../../5.6/mingw49_32/include/QtWidgets/QStatusBar \
+		../../5.6/mingw49_32/include/QtWidgets/qstatusbar.h \
 		../../5.6/mingw49_32/include/QtWidgets/QAction \
+		../../5.6/mingw49_32/include/QtSerialPort/QSerialPort \
+		../../5.6/mingw49_32/include/QtSerialPort/qserialport.h \
+		../../5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
+		../../5.6/mingw49_32/include/QtWidgets/QMessageBox \
+		../../5.6/mingw49_32/include/QtWidgets/qmessagebox.h \
+		../../5.6/mingw49_32/include/QtWidgets/qdialog.h \
 		console.h \
 		../../5.6/mingw49_32/include/QtWidgets/QPlainTextEdit \
 		../../5.6/mingw49_32/include/QtWidgets/qplaintextedit.h \
 		../../5.6/mingw49_32/include/QtWidgets/qtextedit.h \
 		../../5.6/mingw49_32/include/QtWidgets/qabstractscrollarea.h \
-		../../5.6/mingw49_32/include/QtWidgets/qframe.h \
 		../../5.6/mingw49_32/include/QtGui/qtextdocument.h \
 		../../5.6/mingw49_32/include/QtGui/qtextoption.h \
 		../../5.6/mingw49_32/include/QtGui/qtextcursor.h \
@@ -722,18 +736,12 @@ release/main.o: main.cpp mainwindow.h \
 		../../5.6/mingw49_32/include/QtGui/qfontdatabase.h \
 		settingdialog.h \
 		../../5.6/mingw49_32/include/QtWidgets/QDialog \
-		../../5.6/mingw49_32/include/QtWidgets/qdialog.h \
-		../../5.6/mingw49_32/include/QtSerialPort/QSerialPort \
-		../../5.6/mingw49_32/include/QtSerialPort/qserialport.h \
-		../../5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
 		../../5.6/mingw49_32/include/QtWidgets/QHBoxLayout \
 		../../5.6/mingw49_32/include/QtWidgets/qboxlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/qlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/qlayoutitem.h \
 		../../5.6/mingw49_32/include/QtWidgets/qgridlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/QVBoxLayout \
-		../../5.6/mingw49_32/include/QtWidgets/QLabel \
-		../../5.6/mingw49_32/include/QtWidgets/qlabel.h \
 		../../5.6/mingw49_32/include/QtWidgets/QGroupBox \
 		../../5.6/mingw49_32/include/QtWidgets/qgroupbox.h \
 		../../5.6/mingw49_32/include/QtWidgets/QCheckBox \
@@ -880,15 +888,25 @@ release/mainwindow.o: mainwindow.cpp mainwindow.h \
 		../../5.6/mingw49_32/include/QtGui/QIcon \
 		../../5.6/mingw49_32/include/QtWidgets/QMenu \
 		../../5.6/mingw49_32/include/QtWidgets/qmenu.h \
+		../../5.6/mingw49_32/include/QtWidgets/QLabel \
+		../../5.6/mingw49_32/include/QtWidgets/qlabel.h \
+		../../5.6/mingw49_32/include/QtWidgets/qframe.h \
 		../../5.6/mingw49_32/include/QtWidgets/QMenuBar \
 		../../5.6/mingw49_32/include/QtWidgets/qmenubar.h \
+		../../5.6/mingw49_32/include/QtWidgets/QStatusBar \
+		../../5.6/mingw49_32/include/QtWidgets/qstatusbar.h \
 		../../5.6/mingw49_32/include/QtWidgets/QAction \
+		../../5.6/mingw49_32/include/QtSerialPort/QSerialPort \
+		../../5.6/mingw49_32/include/QtSerialPort/qserialport.h \
+		../../5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
+		../../5.6/mingw49_32/include/QtWidgets/QMessageBox \
+		../../5.6/mingw49_32/include/QtWidgets/qmessagebox.h \
+		../../5.6/mingw49_32/include/QtWidgets/qdialog.h \
 		console.h \
 		../../5.6/mingw49_32/include/QtWidgets/QPlainTextEdit \
 		../../5.6/mingw49_32/include/QtWidgets/qplaintextedit.h \
 		../../5.6/mingw49_32/include/QtWidgets/qtextedit.h \
 		../../5.6/mingw49_32/include/QtWidgets/qabstractscrollarea.h \
-		../../5.6/mingw49_32/include/QtWidgets/qframe.h \
 		../../5.6/mingw49_32/include/QtGui/qtextdocument.h \
 		../../5.6/mingw49_32/include/QtGui/qtextoption.h \
 		../../5.6/mingw49_32/include/QtGui/qtextcursor.h \
@@ -901,18 +919,12 @@ release/mainwindow.o: mainwindow.cpp mainwindow.h \
 		../../5.6/mingw49_32/include/QtGui/qfontdatabase.h \
 		settingdialog.h \
 		../../5.6/mingw49_32/include/QtWidgets/QDialog \
-		../../5.6/mingw49_32/include/QtWidgets/qdialog.h \
-		../../5.6/mingw49_32/include/QtSerialPort/QSerialPort \
-		../../5.6/mingw49_32/include/QtSerialPort/qserialport.h \
-		../../5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
 		../../5.6/mingw49_32/include/QtWidgets/QHBoxLayout \
 		../../5.6/mingw49_32/include/QtWidgets/qboxlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/qlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/qlayoutitem.h \
 		../../5.6/mingw49_32/include/QtWidgets/qgridlayout.h \
 		../../5.6/mingw49_32/include/QtWidgets/QVBoxLayout \
-		../../5.6/mingw49_32/include/QtWidgets/QLabel \
-		../../5.6/mingw49_32/include/QtWidgets/qlabel.h \
 		../../5.6/mingw49_32/include/QtWidgets/QGroupBox \
 		../../5.6/mingw49_32/include/QtWidgets/qgroupbox.h \
 		../../5.6/mingw49_32/include/QtWidgets/QCheckBox \
